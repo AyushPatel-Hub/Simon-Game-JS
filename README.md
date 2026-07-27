@@ -24,5 +24,12 @@ The codebase heavily utilizes **functional composition** and **nested execution 
 
 ### 🎮 Functional Workflow
 
+The Simon Game Loop
+1.Game initializes:Start State.
+The game starts at Level 1. The internal sequence array is completely empty, and the score is set to zero.
+2.Add a new step:
+Game's Turn.
+The game randomly picks one of the four colors (usually Green, Red, Yellow, or Blue) and appends it to the end of the existing sequence array.
+
 
 
